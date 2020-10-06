@@ -1,0 +1,62 @@
+html{    
+    font-size: 10px;
+    font-size: 1rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+.cont{
+    background-color: black;
+}
+.cont-home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo{
+    width: 350px;
+    height: 350px;
+    margin: 40px auto 20px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+
+}
+nav ul li{
+    color: white;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+nav ul li:hover a{
+    font-weight: 800;
+    cursor:pointer;
+    transition: .2s;
+    font-size: 2rem;
+    color: #F8B133;
+}
+.cont-carta img{
+    margin: 0 auto;
+    display: block;
+}
+@media (max-width:600px){
+    .cont-carta{
+        align-items: flex-start;
+    }
+}
+  
