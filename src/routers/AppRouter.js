@@ -10,18 +10,18 @@ import { Home } from '../components/Home';
 
 export const AppRouter = () => {
     return (
-        <Router>
-      <div>
-        <Switch>
-          {/* <Route path="/carta">
-            <Carta />
-          </Route> */}
-          <Route path="/">
-            <Home />
-          </Route>
-          <Redirect to="/" />
-        </Switch>
-      </div>
-    </Router>
+      <Router>
+        <div>
+          <Switch>
+            {/* <Route path="/carta">
+              <Carta />
+            </Route> */}
+            <Route path="/">
+              <Home />
+            </Route>
+            <Redirect to="/" />
+          </Switch>
+        </div>
+      </Router>
     )
 }

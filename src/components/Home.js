@@ -1,11 +1,11 @@
 import React from 'react';
 import { NavRouter } from '../routers/NavRouter';
-import LogoWhite from './LogoWhite';
+import { CheckPizzaPoints } from './CheckPizzaPoints';
 
 export const Home = () => {
     return (
         <div className="cont-home">        
-            <LogoWhite/>
+            <CheckPizzaPoints />
             <NavRouter />
         </div>
     )
